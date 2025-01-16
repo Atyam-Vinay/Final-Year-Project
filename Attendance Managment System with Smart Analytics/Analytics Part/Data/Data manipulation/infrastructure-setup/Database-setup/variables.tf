@@ -9,5 +9,9 @@ variable "db_password1" {
 }
 variable "region" {
     description = "AWS region"
-    default     = "ap-south-1"  
+    default     = "ap-southeast-1"
+}
+variable "port" {
+  description = "port for input and output"
+  default     = 3306
 }
